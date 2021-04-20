@@ -1,0 +1,32 @@
+{
+  "name": "admin_dashboard_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "otp-generator": "^2.0.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
